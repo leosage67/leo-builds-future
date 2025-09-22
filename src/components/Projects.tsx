@@ -6,7 +6,7 @@ import { ExternalLink, Github, Cake } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Crumb-Crafted Collection",
+      title: "Leo's Bakery example website",
       description: "A beautifully designed web application that combines my passion for baking with modern web development. This project showcases my ability to create user-friendly interfaces while incorporating my personal interests.",
       image: "/placeholder.svg", 
       technologies: ["React", "TypeScript", "Tailwind CSS", "Modern UI/UX"],
