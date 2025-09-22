@@ -7,18 +7,10 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      description: "Best for formal inquiries and project discussions",
+      description: "leo.justice@jajags.com",
       action: "Send Email",
-      href: "mailto:leo.justice@example.com",
+      href: "mailto:leo.justice@jajags.com",
       color: "from-blue-500 to-cyan-500"
-    },
-    {
-      icon: MessageCircle,
-      title: "Let's Chat",
-      description: "Quick questions or casual conversation",
-      action: "Start Chat",
-      href: "#",
-      color: "from-green-500 to-emerald-500"
     },
     {
       icon: Calendar,
@@ -60,7 +52,7 @@ const Contact = () => {
           </div>
 
           {/* Contact methods */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
             {contactMethods.map((method, index) => (
               <Card 
                 key={index}
@@ -108,7 +100,7 @@ const Contact = () => {
                   asChild
                   className="bg-primary hover:bg-primary-hover text-primary-foreground shadow-medium hover:shadow-glow transition-all duration-300"
                 >
-                  <a href="mailto:leo.justice@example.com">
+                  <a href="mailto:leo.justice@jajags.com">
                     <Mail className="mr-2 h-5 w-5" />
                     Get In Touch
                   </a>
