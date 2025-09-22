@@ -11,7 +11,7 @@ const Projects = () => {
       image: "/placeholder.svg", 
       technologies: ["React", "TypeScript", "Tailwind CSS", "Modern UI/UX"],
       liveUrl: "https://lovable.dev/projects/8b2ec50b-9615-4576-858c-32dcdd349f24",
-      githubUrl: "#",
+      githubUrl: "https://github.com/leosage67/crumb-crafted-collection.git",
       featured: true,
       icon: Cake,
       color: "from-amber-500 to-orange-500"
