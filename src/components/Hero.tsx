@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Download } from "lucide-react";
-import leoHeadshot from "@/assets/leo-headshot.jpg";
+import leoProfile from "@/assets/leo-profile.jpg";
 
 const Hero = () => {
   const scrollToProjects = () => {
@@ -26,7 +26,7 @@ const Hero = () => {
           {/* Profile image */}
           <div className="mb-8 animate-slide-up">
             <img
-              src={leoHeadshot}
+              src={leoProfile}
               alt="Leo Justice - Professional headshot"
               className="w-32 h-32 rounded-full mx-auto shadow-strong border-4 border-white"
             />
