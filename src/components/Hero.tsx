@@ -28,7 +28,7 @@ const Hero = () => {
             <img
               src={leoProfile}
               alt="Leo Justice - Professional headshot"
-              className="w-32 h-32 rounded-full mx-auto shadow-strong border-4 border-white"
+              className="w-32 h-32 rounded-full mx-auto shadow-strong border-4 border-white object-cover"
             />
           </div>
 
