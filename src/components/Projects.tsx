@@ -21,7 +21,7 @@ const Projects = () => {
       description: "An innovative web project demonstrating modern development practices and creative problem-solving. Built with cutting-edge technologies to deliver a seamless user experience.",
       image: "/placeholder.svg",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      liveUrl: "",
+      liveUrl: "https://github.com/leosage67/evo-kick",
       githubUrl: "https://github.com/leosage67/evo-kick",
       featured: false,
       icon: Zap,
