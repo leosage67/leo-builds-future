@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github, Cake } from "lucide-react";
+import { ExternalLink, Github, Cake, Zap } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -15,6 +15,17 @@ const Projects = () => {
       featured: true,
       icon: Cake,
       color: "from-amber-500 to-orange-500"
+    },
+    {
+      title: "Evo Kick",
+      description: "An innovative web project demonstrating modern development practices and creative problem-solving. Built with cutting-edge technologies to deliver a seamless user experience.",
+      image: "/placeholder.svg",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+      liveUrl: "",
+      githubUrl: "https://github.com/leosage67/evo-kick.git",
+      featured: false,
+      icon: Zap,
+      color: "from-blue-500 to-purple-500"
     }
   ];
 
