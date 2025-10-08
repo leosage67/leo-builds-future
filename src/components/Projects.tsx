@@ -22,7 +22,7 @@ const Projects = () => {
       image: "/placeholder.svg",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       liveUrl: "",
-      githubUrl: "https://github.com/leosage67/evo-kick.git",
+      githubUrl: "https://github.com/leosage67/evo-kick",
       featured: false,
       icon: Zap,
       color: "from-blue-500 to-purple-500"
