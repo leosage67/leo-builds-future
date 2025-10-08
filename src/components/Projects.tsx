@@ -21,7 +21,7 @@ const Projects = () => {
       description: "An innovative web project demonstrating modern development practices and creative problem-solving. Built with cutting-edge technologies to deliver a seamless user experience.",
       image: "/placeholder.svg",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      liveUrl: "https://github.com/leosage67/evo-kick",
+      liveUrl: "https://lovable.dev/projects/6013ed6c-4e8d-429a-8906-cf3a48b789be",
       githubUrl: "https://github.com/leosage67/evo-kick",
       featured: false,
       icon: Zap,
