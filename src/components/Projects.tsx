@@ -17,7 +17,7 @@ const Projects = () => {
       color: "from-amber-500 to-orange-500"
     },
     {
-      title: "Evo Kick",
+      title: "Soccer App",
       description: "An innovative web project demonstrating modern development practices and creative problem-solving. Built with cutting-edge technologies to deliver a seamless user experience.",
       image: "/placeholder.svg",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
